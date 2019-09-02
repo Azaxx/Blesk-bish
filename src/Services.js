@@ -28,7 +28,7 @@ class Service extends React.Component {
           <div className="line"></div>
             <div className="service_corp">
               <center><img className="logo-img-home-corp" src={imgCorp} width="70%" height="60%"></img></center>
-              <div className="p-forHome">Для оргонизации</div>
+              <div className="p-forHome">Для оргaнизации</div>
               <div className="p-uslug">Клининговые услуги</div>
               <p className="p-corp-uslug">Осуществляем качественные клининговые услуги для торговых, производственных и складских помещений. Все работы проводятся в сжатые сроки и под ключ.</p>
               <ul className="li-corp-all">

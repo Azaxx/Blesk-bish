@@ -5,31 +5,59 @@ display: flex
 .images-text-home {
   background-image: url(http://simi.org.br/files/2018/Junho/faxina_1.jpg);
   background-repeat: no-repeat;
-  padding: 16%;
+  padding: 14%;
 }
 
 .vertical-menu {
   width: 50%;
   margin: 100px 40px 0px 40px;
-  padding-left: 20px;
+  padding-left: 18px;
+}
+
+.li-corp {
+  color: rgb(63, 152, 204);
+}
+
+.li-corp :hover li {
+  color: rgb(43, 116, 109);
+  font-size: 18px;
+}
+
+
+.h3-vm-home-1 {
+  color: rgb(30, 59, 156);
+  font-size: 20px;
+}
+
+.h2-vm-home-1 {
+  margin-right:200px;
+}
+
+.b-table {
+  background-color: rgb(72, 110, 235);
+  padding-bottom: 430px;
+  position: relative;
+  margin-top:110px;
 }
 
 .vertical-menu a {
-  color: black;
-  display: flex;  
   text-decoration: none;
+  margin-left: 10px;
 }
 
 .h3-home {
-  color: rgb(31, 44, 85);
+  color: rgb(30, 59, 156);
   padding: 10px 10px 10px 10px;
-  font-size: 28px;
-  text-align: center;
+  font-size: 36px;
 }
 
 .p-home {
   font-size: 14px;
   color:rgb(45, 47, 53);
+}
+
+.backToBasic {
+  color: rgb(73, 76, 90)
 }
 
 .h4-home {

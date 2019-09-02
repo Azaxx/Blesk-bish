@@ -82,7 +82,7 @@ padding: 20px 40px 20px 40px;
   text-decoration: none;
 }
 
-.li-corp-all :hover li {
+.li-corp :hover{
   color: rgb(43, 116, 109);
   font-size: 18px;
 }

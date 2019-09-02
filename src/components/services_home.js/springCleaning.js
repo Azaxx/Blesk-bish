@@ -9,8 +9,8 @@ export default  class SpringCleaning extends React.Component {
       <div className="images-text-home"></div>
       <div className="Style-springCleaning-home">
         <div class="vertical-menu">
-          <h2>Услуги</h2>
-          <h3>Для дома</h3>
+          <h2 className="h2-vm-home-1">Услуги</h2>
+          <h3 className="h3-vm-home-1">Для дома</h3>
             <Link to="/springСleaning"><span className="li-corp">-Генеральная уборка</span></Link>
             <hr></hr>
             <Link to="/cleaningAfterRepair"><span className="li-corp">-Уборка после ремонта</span></Link>
@@ -21,7 +21,7 @@ export default  class SpringCleaning extends React.Component {
             <hr></hr>
             <Link to="/sale"><span className="li-corp">-СКИДКИ</span></Link>
             <hr></hr>
-           <h3>Для бизнеса</h3> 
+           <h3 className="h3-vm-home-1">Для бизнеса</h3> 
             <Link to="/office"><span className="li-corp">-Офисам</span></Link>
             <hr></hr>
             <Link to="/shops"><span className="li-corp">-Магазинам и торговым центрам</span></Link>
@@ -29,9 +29,16 @@ export default  class SpringCleaning extends React.Component {
             <Link to="/hotel"><span className="li-corp">-Уборка отелей (гостиниц)</span></Link>
             <hr></hr>
             <Link to="/cleaningIndustrial"><span className="li-corp">-Уборка промышленных и производственных площадей</span></Link>
+            <div className="b-table">
+              <h1>aza</h1>
+              <hr/>
+              <h1>azzz</h1>
+              <hr/>
+              <h1>aisha</h1>  
+            </div>
         </div>
       <div className="home-content">
-        <h5> <Link to="/">Главная страница</Link>>>Генеральная уборка</h5>
+        <h5> <Link className="backToBasic" to="/">Главная страница</Link>>Генеральная уборка</h5>
         <h3 className="h3-home">Пугает перспектива надвигающейся генеральной уборки в квартире?</h3>
         <p className="p-home">Не стоит впадать в отчаяние: поручите это клининговой компании «БЛЕСК». Будьте уверены, уже сегодня ваш дом будет сиять идеальной чистотой, ведь профессиональный клининг – наша любимая работа.</p>
         <h3 className="h3-home">Поручите генеральную уборку квартиры нашей компании!</h3>
